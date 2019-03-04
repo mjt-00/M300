@@ -1,7 +1,7 @@
 M300 - K1
 =======
 
-* 01 - [VirtualBox](#-01---VirtualBox)
+* 01 - [VirtualBox]
 * 02 - [Vagrant](#--02---Vagrant)
 * 03 - [VSCode](#--03---Virtual-Studio-Code)
 * 04 - [Git-Client](#--04---Git-Client)
