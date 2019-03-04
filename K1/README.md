@@ -7,25 +7,23 @@
 
 01 - VirtualBox
 ======
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
 Da wir sonst immer mit VMWare gearbeitet haben, mussten wir zuerst noch VirtualBox herunterladen und installieren.
 
 02 - Vagrant
 ======
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
 Vagrant musste installiert werden, damit wir die Möglichkeit haben, VM's automatisiert zu erstellen. 
 
 03 - Visual Studio Code
 ======
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
+
 Visual Studio Code war zwar nicht obligatorisch, jedoch war es ein Tipp vom Lehrer da es einfacher geht, die Text-Files darin zu bearbeiten. Im Nachhinein hat es sich auch rausgestellt, dass dies zutraff.
 
 04 - Git-Client
 ======
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
 Ebenfalls musste noch ein Git-Client installiert werden. Dies damit die Arbeiten lokal auf dem eigenen PC erfolgen können.
 
 05 - SSH Key für Client 
 ======
-> [⇧ **Nach oben**](#inhaltsverzeichnis)
 Der SSH Key muss auch noch beim Client sowie in Github erstellt werden. Dies wird in Herr Bernet's Dokumentation schon beschrieben und wird aufgrund von dem, hier weggelassen.
