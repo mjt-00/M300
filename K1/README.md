@@ -2,8 +2,7 @@
 * 02 - [Vagrant](#--02---Vagrant)
 * 03 - [VSCode](#--03---Virtual-Studio-Code)
 * 04 - [Git-Client](#--04---Git-Client)
-* 05 - [Visual Studio Code](#-05---visual-studio-code)
-* 06 - [SSH Key für Client](#-06---SSH-Key-für-Client)
+* 05 - [SSH Key für Client](#-05---SSH-Key-für-Client)
 
 
 01 - VirtualBox
@@ -21,4 +20,12 @@ Vagrant musste installiert werden, damit wir die Möglichkeit haben, VM's automa
 
 Visual Studio Code war zwar nicht obligatorisch, jedoch war es ein Tipp vom Lehrer da es einfacher geht, die Text-Files darin zu bearbeiten. Im Nachhinein hat es sich auch rausgestellt, dass dies zutraff.
 
+04 - Git-Client
+======
 
+Ebenfalls musste noch ein Git-Client installiert werden. Dies damit die Arbeiten lokal auf dem eigenen PC erfolgen können.
+
+05 - SSH Key für Client 
+======
+
+Der SSH Key muss auch noch beim Client sowie in Github erstellt werden. Dies wird in Herr Bernet's Dokumentation schon beschrieben und wird aufgrund von dem, hier weggelassen.
