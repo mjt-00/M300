@@ -1,29 +1,48 @@
+**Bestehende VM aus Vagrant-Cloud einrichten:**
 
+*Was sind überhaupt diese Vagrant-Cloud Boxen?*
 
-Hier zum Start noch die wichtigsten Befehle die von Vagrant benutzt werden: 
+Boxen sind bei Vagrant vorkonfigurierte VMs (Vorlagen). Diese sollen den Prozess
+der Softwareverteilung und der Entwicklung beschleunigen. Jede Box, die von dem
+Nutzer benutzt wurde, wird auf dem Computer gespeichert und muss so nicht wieder
+aus dem Internet geladen werden.
 
-| Befehl                    | Beschreibung                                                      |
-| ------------------------- | ----------------------------------------------------------------- | 
-| `vagrant init`            | Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile |
-| `vagrant up`              |  Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile |
-| `vagrant ssh`             | Baut eine SSH-Verbindung zur gewünschten VM auf                   |
-| `vagrant status`          | Zeigt den aktuellen Status der VM an                              |
-| `vagrant port`            | Zeigt die Weitergeleiteten Ports der VM an                        |
-| `vagrant halt`            | Stoppt die laufende Virtuelle Maschine                            |
-| `vagrant destroy`         | Stoppt die Virtuelle Maschine und zerstört sie.                   |
+*Wie werden die Boxen hinzugefügt?*
 
-Um weitere Befehle zu finden, hier den Link dazu unter: https://www.vagrantup.com/docs/cli/
+Boxen können explizit durch den Befehl vagrant box add [box-name] oder vagrant
+box add [box-url] heruntergeladen und durch vagrant box remove [box-name]
+entfernt werden. Ein "box-name" ist dabei durch Konvention wie folgt aufgebaut:
+Entwickler/Box (z.B. ubuntu/xenial64).
 
+*Wie werden die Boxen installiert?*
 
-Test
+Boxen können explizit durch den Befehl vagrant box add [box-name] oder vagrant
+box add [box-url] heruntergeladen und durch vagrant box remove [box-name]
+entfernt werden. Ein "box-name" ist dabei durch Konvention wie folgt aufgebaut:
+Entwickler/Box (z.B. ubuntu/xenial64).
 
-Dies ist eine Tabelle:
+*Wie kann die Box hinzugefügt werden?*
 
-| Test | tgsfdsfsa |
-|------|-----------|
-|      |           |
-|      |           |
-|      |           |
-| fsdf |           |
+Hinzufügen einer Box zur lokalen Registry:
 
+\$ vagrant box add [box-name]
 
+In der lokalen Registry vorhandene Boxen anzeigen:
+
+\$ vagrant box list
+
+*VM erstellen*
+
+Vagrantfile Erzeugen und Provisionierung starten:
+
+\$ mkdir myserver
+
+\$ cd myserver
+
+\$ vagrant init ubuntu/xenial64
+
+\$ vagrant up
+
+Aktueller Status der VM anzeigen:
+
+\$ vagrant status
