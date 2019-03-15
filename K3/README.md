@@ -59,7 +59,7 @@ In gewünschtem Verzeichnis einen neuen Ordner für die VM anlegen:
 
 \$ cd MeineVagrantVM
 
-Vagrantfile erzeugen, VM erstellen und entsprechend starten:
+Vagrantfile erzeugen, VM erstellen und entsprechend starten: (die VM 's sind VM Boxen)
 
 \$ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name
 ubuntu/xenial64 \#Vagrant-Box vom Netzwerkshare hinzufügen
