@@ -47,6 +47,8 @@ Aktueller Status der VM anzeigen:
 
 \$ vagrant status
 
+***
+
 **Eigene vorgefertigte VM**
 
 Terminal (Bash) öffnen
