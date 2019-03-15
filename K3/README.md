@@ -1,7 +1,7 @@
 M300 - K3
 ============
 
-*****Bestehende VM aus Vagrant-Cloud einrichten**
+***Bestehende VM aus Vagrant-Cloud einrichten**
 ***
 
 *Was sind überhaupt diese Vagrant-Cloud Boxen?*
