@@ -46,3 +46,24 @@ Vagrantfile Erzeugen und Provisionierung starten:
 Aktueller Status der VM anzeigen:
 
 \$ vagrant status
+
+**Eigene vorgefertigte VM**
+
+Terminal (Bash) öffnen
+
+In gewünschtem Verzeichnis einen neuen Ordner für die VM anlegen:
+
+\$ cd Wohin\\auch\\immer
+
+\$ mkdir MeineVagrantVM
+
+\$ cd MeineVagrantVM
+
+Vagrantfile erzeugen, VM erstellen und entsprechend starten:
+
+\$ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name
+ubuntu/xenial64 \#Vagrant-Box vom Netzwerkshare hinzufügen
+
+\$ vagrant init ubuntu/xenial64 \#Vagrantfile erzeugen
+
+\$ vagrant up --provider virtualbox \#Virtuelle Maschine erstellen & starten
