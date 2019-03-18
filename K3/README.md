@@ -60,6 +60,10 @@ Nach Änderungen im Vagrantfile kann ein Server wie folgt aktualisiert werden:
 
     $ vagrant provision
  
+**VM löschen** 
+Die VM kann wie folgt gelöscht werden:
+
+    $ vagrant destroy -f
 
 ***
 
