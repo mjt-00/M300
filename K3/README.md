@@ -33,7 +33,7 @@ Entwickler/Box (z.B. ubuntu/xenial64).
 
 Hinzufügen einer Box zur lokalen Registry:
 
-    \$ vagrant box add [box-name]
+    $ vagrant box add [box-name]
 
 In der lokalen Registry vorhandene Boxen anzeigen:
 
