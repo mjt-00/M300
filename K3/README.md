@@ -4,6 +4,8 @@ M300 - K3
 **Bestehende VM aus Vagrant-Cloud einrichten**
 ***
 
+**Allgemeines**
+
 *Was sind überhaupt diese Vagrant-Cloud Boxen?*
 
 Boxen sind bei Vagrant vorkonfigurierte VMs (Vorlagen). Diese sollen den Prozess
@@ -25,7 +27,9 @@ box add [box-url] heruntergeladen und durch vagrant box remove [box-name]
 entfernt werden. Ein "box-name" ist dabei durch Konvention wie folgt aufgebaut:
 Entwickler/Box (z.B. ubuntu/xenial64).
 
-*Wie kann die Box hinzugefügt werden?*
+***
+
+**Box hinzufügen**
 
 Hinzufügen einer Box zur lokalen Registry:
 
