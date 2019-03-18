@@ -43,7 +43,7 @@ In der lokalen Registry vorhandene Boxen anzeigen:
 
 Vagrantfile Erzeugen und Provisionierung starten:
 
-  \$ mkdir myserver
+               \$ mkdir myserver
 
   \$ cd myserver
 
