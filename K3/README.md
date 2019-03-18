@@ -33,11 +33,11 @@ Entwickler/Box (z.B. ubuntu/xenial64).
 
 Hinzufügen einer Box zur lokalen Registry:
 
-  $ vagrant box add [box-name]
+    \$ vagrant box add [box-name]
 
 In der lokalen Registry vorhandene Boxen anzeigen:
 
-  \$ vagrant box list
+    \$ vagrant box list
 
 *VM erstellen*
 
@@ -63,17 +63,17 @@ Terminal (Bash) öffnen
 
 In gewünschtem Verzeichnis einen neuen Ordner für die VM anlegen:
 
-  \$ cd Wohin\\auch\\immer
+    \$ cd Wohin\\auch\\immer
 
-  \$ mkdir MeineVagrantVM
+    \$ mkdir MeineVagrantVM
 
-  \$ cd MeineVagrantVM
+    \$ cd MeineVagrantVM
 
 Vagrantfile erzeugen, VM erstellen und entsprechend starten: (die VM 's sind VM Boxen)
 
-  \$ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name
-  ubuntu/xenial64 \#Vagrant-Box vom Netzwerkshare hinzufügen
+    \$ vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name
+    ubuntu/xenial64 \#Vagrant-Box vom Netzwerkshare hinzufügen
 
-  \$ vagrant init ubuntu/xenial64 \#Vagrantfile erzeugen
+    \$ vagrant init ubuntu/xenial64 \#Vagrantfile erzeugen
 
-  \$ vagrant up --provider virtualbox \#Virtuelle Maschine erstellen & starten
+    \$ vagrant up --provider virtualbox \#Virtuelle Maschine erstellen & starten
