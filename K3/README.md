@@ -39,7 +39,7 @@ In der lokalen Registry vorhandene Boxen anzeigen:
 
     $ vagrant box list
 
-*VM erstellen*
+**VM erstellen**
 
 Vagrantfile Erzeugen und Provisionierung starten:
 
@@ -54,6 +54,12 @@ Vagrantfile Erzeugen und Provisionierung starten:
 Aktueller Status der VM anzeigen:
 
     $ vagrant status
+    
+**VM updaten** 
+Nach Änderungen im Vagrantfile kann ein Server wie folgt aktualisiert werden:
+
+    $ vagrant provision
+ 
 
 ***
 
