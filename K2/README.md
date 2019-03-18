@@ -10,7 +10,7 @@ M300 - K2 - Eigene Lernumgebung ist eingerichtet
 * Mark down-Editor ausgewählt und eingerichte
 * Mark down ist strukturiert
 * Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung /  Git, Mark Down, Systemsicherheit)
-* Wichtige Lernschritte sind dokumentier
+* Wichtige Lernschritte sind dokumentiert
 
 #### Inhaltsverzeichnis
 
