@@ -43,17 +43,17 @@ In der lokalen Registry vorhandene Boxen anzeigen:
 
 Vagrantfile Erzeugen und Provisionierung starten:
 
-               \$ mkdir myserver
+    \$ mkdir myserver   
 
-  \$ cd myserver
+    \$ cd myserver
 
-  \$ vagrant init ubuntu/xenial64
+    \$ vagrant init ubuntu/xenial64
 
-  \$ vagrant up
+    \$ vagrant up
 
 Aktueller Status der VM anzeigen:
 
-  \$ vagrant status
+    \$ vagrant status
 
 ***
 
