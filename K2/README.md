@@ -12,16 +12,6 @@ M300 - K2 - Eigene Lernumgebung ist eingerichtet
 * Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung /  Git, Mark Down, Systemsicherheit)
 * Wichtige Lernschritte sind dokumentiert
 
-#### Inhaltsverzeichnis
-
-* 01 - [GitHub Account](#-01---github-account)
-* 02 - [Persönlicher Wissenstand](#-02---Persönlicher-Wissenstand)
-* 03 - [Lernschritte](#-03---Lernschritte)
-
-
-
-
-
 
 ### Account erstellen
 ***
