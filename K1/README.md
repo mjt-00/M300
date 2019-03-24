@@ -30,4 +30,4 @@ Ebenfalls musste noch ein Git-Client installiert werden. Dies damit die Arbeiten
 05 - SSH Key für Client 
 ======
 Der SSH Key muss auch noch beim Client sowie in Github erstellt werden. Dies wird in Herr Bernet's Dokumentation schon beschrieben und wird aufgrund von dem, hier weggelassen.
-k1
+
