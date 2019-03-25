@@ -17,8 +17,11 @@ Hürden überwunden und evaluiert werden.
 Mir hat diese Lernbeurteilung sehr gepasst, da man sehr selbstständig lernen
 kann.
 
-***
+
 ***Reflexion***
+
+***
+
 Insgesamt im Nachhinein kann ich sagen, es ist sehr sinnvoll dieses Modul durchzuarbeiten und gut aufzupassen.
 Ich bin der Meinung, dass dies die Zukunft bestimmt. Da Automatisierung Zeit spart, und was gibt es als Unternehmen besseres als schneller sein zu können als die Anderen. 
 Ich kam insgesamt nach ein paar Anfängen gut zu recht und konnte die Arbeiten erledigen. 
