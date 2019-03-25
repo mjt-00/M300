@@ -31,6 +31,9 @@ Entwickler/Box (z.B. ubuntu/xenial64).
 
 **Box hinzufügen**
 
+Die Vagrant-Boxen können unter folgendem Link heruntergeladen werden: 
+https://app.vagrantup.com/boxes/search (dies sind bereits fertige Boxen die mit Vagrant eingepflegt werden können. 
+
 Hinzufügen einer Box zur lokalen Registry:
 
     $ vagrant box add [box-name]
