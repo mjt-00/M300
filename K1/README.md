@@ -12,6 +12,7 @@ M300 - K1
 ======
 
 Da wir sonst immer mit VMWare gearbeitet haben, mussten wir zuerst noch VirtualBox herunterladen und installieren.
+Dies ist unsere Virtualisierungssoftware. An sich selbst bruachen wir aber Virtualbox nicht gross. Da wir alles mit Vagrant automatisieren müssen. 
 
 02 - Vagrant
 ======
