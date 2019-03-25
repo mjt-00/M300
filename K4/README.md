@@ -1,3 +1,5 @@
+***Sicherheitsaspekte sind implementiert***
+***
 **Firewall eingerichtet inkl. Rules**
 
 Bei der Firewall haben wir folgende Sachen eingerichtet:
